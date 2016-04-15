@@ -1,0 +1,27 @@
+$font-title: 'franklingothicnewheavy';
+$font-content: 'franklingothicnewbook';
+
+/*-----------------------------
+Media query breakpoints
+-------------------------------*/
+
+$brk-xs: '(max-width: 768px)';
+$brk-sm: '(min-width: 768px)';
+$brk-m: '(min-width: 992px)';
+$brk-lg: '(min-width: 1200px)';
+
+$off-white: #f7f7f7;
+
+$col-3: 25%;
+
+$col-4: 100% / 3;
+
+$col-6: 50%;
+
+$col-9: 75%;
+
+$col-12: 100%;
+
+%container {
+	padding: 10px 15px;
+}

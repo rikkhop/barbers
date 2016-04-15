@@ -1,0 +1,12 @@
+.navSelected {
+	@include transform(rotate(90deg));
+}
+
+.cover.ng-enter {
+	@include transition(transform .2s ease);
+	@include transform(translateX(-500px));
+}
+
+.cover.ng-enter-active {
+	@include transform(translateX(0));
+}

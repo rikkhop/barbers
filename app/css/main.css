@@ -1,0 +1,585 @@
+/*-----------------------------
+Media query breakpoints
+-------------------------------*/
+/* line 25, ../scss/base/_variables.scss */
+.cover-col, .row {
+  padding: 10px 15px;
+}
+
+/* line 1, ../scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../scss/base/_base.scss */
+html {
+  height: 100%;
+}
+
+/* line 9, ../scss/base/_base.scss */
+body {
+  height: 100%;
+  min-width: 350px;
+  font-size: 18px;
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 17, ../scss/base/_base.scss */
+p, li, a, td, th, input, select {
+  font-weight: 300;
+  color: #f7f7f7;
+}
+
+/* line 22, ../scss/base/_base.scss */
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+/* line 27, ../scss/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 31, ../scss/base/_base.scss */
+input, select {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border-bottom: 3px solid #666;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+/* line 39, ../scss/base/_base.scss */
+input[type=submit], select[type=submit] {
+  color: #fff;
+  background: #666;
+  border: 0;
+}
+/* line 44, ../scss/base/_base.scss */
+input:focus, select:focus {
+  outline: 0;
+}
+
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 13, ../scss/base/_boilerplate.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 27, ../scss/base/_boilerplate.scss */
+::-moz-selection {
+  text-shadow: none;
+}
+
+/* line 31, ../scss/base/_boilerplate.scss */
+::selection {
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 39, ../scss/base/_boilerplate.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+/* line 54, ../scss/base/_boilerplate.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 67, ../scss/base/_boilerplate.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 77, ../scss/base/_boilerplate.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+/* line 85, ../scss/base/_boilerplate.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers:
+ */
+/* line 107, ../scss/base/_boilerplate.scss */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+/* line 116, ../scss/base/_boilerplate.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+/* line 133, ../scss/base/_boilerplate.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+/* line 147, ../scss/base/_boilerplate.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 163, ../scss/base/_boilerplate.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 169, ../scss/base/_boilerplate.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  /* line 197, ../scss/base/_boilerplate.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+       http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 207, ../scss/base/_boilerplate.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 212, ../scss/base/_boilerplate.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 216, ../scss/base/_boilerplate.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  /* line 225, ../scss/base/_boilerplate.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* line 230, ../scss/base/_boilerplate.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  /* line 241, ../scss/base/_boilerplate.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 245, ../scss/base/_boilerplate.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 250, ../scss/base/_boilerplate.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 254, ../scss/base/_boilerplate.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 261, ../scss/base/_boilerplate.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 1, ../scss/components/_buttons.scss */
+.banner a {
+  transition: text-shadow 0.2s;
+}
+
+/* line 5, ../scss/components/_buttons.scss */
+.banner a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 30px #fff;
+}
+
+/* line 1, ../scss/components/_icons.scss */
+.social-icons li {
+  display: inline-block;
+}
+
+/* line 1, ../scss/components/_typography.scss */
+.title {
+  font-family: 'Montserrat';
+}
+
+/* line 5, ../scss/components/_typography.scss */
+.logo {
+  float: left;
+  color: #fff;
+}
+
+/* line 10, ../scss/components/_typography.scss */
+.logo h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* line 16, ../scss/components/_typography.scss */
+.logo h1 span {
+  font-weight: 300;
+}
+
+/* line 20, ../scss/components/_typography.scss */
+.sub-title {
+  font-size: 1.5em;
+}
+
+/* line 24, ../scss/components/_typography.scss */
+.sub-title span {
+  display: inline-block;
+  height: 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+/* line 1, ../scss/components/_animations.scss */
+.navSelected {
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 5, ../scss/components/_animations.scss */
+.cover.ng-enter {
+  -moz-transition: -moz-transform 0.2s ease;
+  -o-transition: -o-transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  -moz-transform: translateX(-500px);
+  -ms-transform: translateX(-500px);
+  -webkit-transform: translateX(-500px);
+  transform: translateX(-500px);
+}
+
+/* line 10, ../scss/components/_animations.scss */
+.cover.ng-enter-active {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 1, ../scss/containers/_columns.scss */
+.column {
+  float: left;
+}
+
+/* line 5, ../scss/containers/_columns.scss */
+.cover-col {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  /* line 5, ../scss/containers/_columns.scss */
+  .cover-col {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 5, ../scss/containers/_columns.scss */
+  .cover-col {
+    width: 50%;
+  }
+}
+
+/* line 1, ../scss/containers/_containers.scss */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* line 8, ../scss/containers/_containers.scss */
+.cover-container {
+  display: table;
+}
+
+/* line 12, ../scss/containers/_containers.scss */
+.cover {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 18, ../scss/containers/_containers.scss */
+.cover-content {
+  display: inline-block;
+  color: #f7f7f7;
+  background: rgba(66, 66, 66, 0.8);
+  padding: 15px 15px;
+  border-radius: 5px;
+  margin: 60px 0 30px;
+}
+
+/* line 27, ../scss/containers/_containers.scss */
+.wrapper {
+  position: relative;
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 38, ../scss/containers/_containers.scss */
+.banner {
+  background: url("../img/forhim_banner.jpg") 50% 50%/cover no-repeat;
+  box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.5);
+  padding-top: 40px;
+}
+
+/* line 44, ../scss/containers/_containers.scss */
+.list {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* line 51, ../scss/containers/_containers.scss */
+.list th {
+  width: 50%;
+  padding: 5px 20px 5px 0;
+  text-align: right;
+}
+
+/* line 57, ../scss/containers/_containers.scss */
+.list td {
+  width: 50%;
+  padding: 5px 0 5px 20px;
+}
+
+/* line 62, ../scss/containers/_containers.scss */
+.title {
+  font-size: 2em;
+}
+
+/* line 66, ../scss/containers/_containers.scss */
+table, .tbody {
+  width: 100%;
+}
+
+/* line 1, ../scss/containers/_header.scss */
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 6, ../scss/containers/_header.scss */
+.logo a {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 12, ../scss/containers/_header.scss */
+.nav-container {
+  position: relative;
+}
+
+/* line 16, ../scss/containers/_header.scss */
+.nav-toggle span {
+  padding: 5px 10px;
+  background: #333;
+  border-radius: 3px;
+}
+
+/* line 22, ../scss/containers/_header.scss */
+.nav-toggle a {
+  cursor: pointer;
+  margin: 0;
+}
+
+/* line 27, ../scss/containers/_header.scss */
+.nav {
+  background: #333;
+  position: absolute;
+  right: 0;
+  padding: 10px 15px;
+  margin-top: 55px;
+  border-radius: 5px;
+}
+
+/* line 36, ../scss/containers/_header.scss */
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 41, ../scss/containers/_header.scss */
+.nav li:first-child {
+  margin-top: 0;
+}
+
+/* line 45, ../scss/containers/_header.scss */
+.nav li {
+  margin-top: 20px;
+}
+
+/* line 49, ../scss/containers/_header.scss */
+.header-info {
+  position: relative;
+  color: #fff;
+  float: right;
+  font-size: 2em;
+  z-index: 20;
+}
+
+/* line 57, ../scss/containers/_header.scss */
+.header-info li {
+  float: left;
+}
+
+/* line 61, ../scss/containers/_header.scss */
+.header-info li a {
+  display: block;
+  height: 100%;
+  margin-left: 10px;
+}

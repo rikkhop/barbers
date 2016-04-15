@@ -1,0 +1,65 @@
+.header {
+	position: absolute;
+	width: 100%;
+}
+
+.logo a {
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.nav-container {
+	position: relative;
+}
+
+.nav-toggle span {
+	padding: 5px 10px;
+	background: #333;
+	border-radius: 3px;
+}
+
+.nav-toggle a {
+	cursor: pointer;
+	margin: 0;
+}
+
+.nav {
+	background: #333;
+  position: absolute;
+  right: 0;
+  padding: 10px 15px;
+  margin-top: 55px;
+  border-radius: 5px;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav li:first-child {
+	margin-top: 0;
+}
+
+.nav li {
+  margin-top: 20px;
+}
+
+.header-info {
+	position: relative;
+  color: #fff;
+  float: right;
+  font-size: 2em;
+  z-index: 20;
+}
+
+.header-info li {
+  float: left;
+}
+
+.header-info li a {
+  display: block;
+  height: 100%;
+  margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-width: 350px;
+  font-size: 18px;
+  color: $off-white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li, a, td, th, input, select {
+  font-weight: 300;
+  color: $off-white;
+}
+
+ul {
+	margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, select {
+	margin: 10px 5px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	border-bottom: 3px solid #666;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+		&[type=submit] {
+			color: #fff;
+			background: #666;
+			border: 0;
+		}
+		&:focus {
+					outline: 0;
+				}
+}
+
+

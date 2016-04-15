@@ -1,0 +1,29 @@
+.title {
+	font-family: 'Montserrat';
+}
+
+.logo {
+  float: left;
+  color: #fff;
+}
+
+.logo h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+.logo h1 span {
+  font-weight: 300;
+}
+
+.sub-title {
+	font-size: 1.5em;
+}
+
+.sub-title span {
+	display: inline-block;
+	height: 0;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}

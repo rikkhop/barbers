@@ -1,0 +1,16 @@
+.column {
+	float: left;
+}
+
+.cover-col {
+	@extend %container;
+  width: $col-12;
+
+  	@media #{$brk-sm} {
+  		width: $col-9;
+  	}
+
+  	@media #{$brk-lg} {
+  		width: $col-6;
+  	}
+}
